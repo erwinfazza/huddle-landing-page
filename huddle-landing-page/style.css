@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "open-sans";
+  src: url(font/OpenSans-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "open-sans-regular";
+  src: url(font/OpenSans-Regular.ttf);
+}
+
+body {
+  background-image: url(img/bg-desktop.svg);
+  background-color: hsl(257, 40%, 49%);
+  margin: 50px;
+  display: absolute;
+}
+.mockup {
+  width: 200%;
+}
+
+.logo {
+  width: 10%;
+  margin-bottom: 40px;
+  margin-top: -10px;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+}
+.text {
+  color: white;
+  display: inline-block;
+  margin-left: 350px;
+  align-items: center;
+}
+h1 {
+  font-family: "open-sans";
+  margin-top: 40px;
+  padding: 30px;
+  font-size: 40px;
+}
+p {
+  font-family: "open-sans-regular";
+  margin-left: 40px;
+  padding-bottom: 30px;
+  font-size: 18px;
+}
+button {
+  margin-left: 40px;
+  padding: 15px 40px 15px 40px;
+  border-radius: 50px;
+  font-size: 20px;
+  color: hsl(257, 40%, 49%);
+  font-family: "open-sans-regular";
+  border: transparent;
+  box-shadow: 2px 2px 2px 2px rgb(32, 30, 30);
+}
+button:hover {
+  color: white;
+  background-color: hsl(300, 69%, 71%);
+}
+footer {
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  left: 1200px;
+  top: 550px;
+}
+.fa-facebook {
+  border-radius: 50%;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  padding: 7px 10px 5px 10px;
+  margin-right: 10px;
+}
+
+.fa-twitter {
+  border-radius: 50%;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  padding: 7px 10px 5px 10px;
+  margin-right: 10px;
+}
+.fa-instagram {
+  border-radius: 50%;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  padding: 7px 10px 5px 10px;
+  margin-right: 10px;
+}
+.fa-facebook:hover {
+  color: hsl(300, 69%, 71%);
+  cursor: pointer;
+  border-color: hsl(300, 69%, 71%);
+}
+.fa-twitter:hover {
+  color: hsl(300, 69%, 71%);
+  cursor: pointer;
+  border-color: hsl(300, 69%, 71%);
+}
+.fa-instagram:hover {
+  color: hsl(300, 69%, 71%);
+  cursor: pointer;
+  border-color: hsl(300, 69%, 71%);
+}
